@@ -51,7 +51,7 @@ document.addEventListener('keydown', function(event) {
    if(audios.hasOwnProperty(eventName)){
 
       sound[letters[eventName]].classList.add("press");
-      audios[eventName].currentTime = 0;
+      //audios[eventName].currentTime = 0;
       audios[eventName].play();
 
       document.addEventListener('keyup', function(){
